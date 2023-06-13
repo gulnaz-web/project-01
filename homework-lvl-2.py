@@ -24,16 +24,12 @@ def minimum(lst):
             min_num = num
     return min_num
 
-# Примеры использования
 numbers1 = [4, 6, 2, 1, 9, 63, -134, 566]
 print(f"max = {maximum(numbers1)}, min = {minimum(numbers1)}")
-
 numbers2 = [-52, 56, 30, 29, -54, 0, -110]
 print(f"max = {maximum(numbers2)}, min = {minimum(numbers2)}")
-
 numbers3 = [42, 54, 65, 87, 0]
 print(f"max = {maximum(numbers3)}, min = {minimum(numbers3)}")
-
 numbers4 = [5]
 print(f"max = {maximum(numbers4)}, min = {minimum(numbers4)}")
 
@@ -57,13 +53,10 @@ def quarter_of(month):
     else:
         return "Неверный номер месяца"
 
-# Примеры использования
 month1 = 2
 print(f"Месяц {month1} относится к {quarter_of(month1)} кварталу")
-
 month2 = 6
 print(f"Месяц {month2} относится к {quarter_of(month2)} кварталу")
-
 month3 = 11
 print(f"Месяц {month3} относится к {quarter_of(month3)} кварталу")
 
@@ -94,7 +87,6 @@ def switch_it_up(number):
 
     return num_dict.get(number)
 
-# Примеры использования
 print(switch_it_up(1))      
 print(switch_it_up(3))      
 print(switch_it_up(7))      
@@ -114,7 +106,6 @@ print(switch_it_up(10000))
 def remove_exclamation_marks(s):
     return s.replace("!", "")
 
-# Примеры использования
 print(remove_exclamation_marks("Hi! Hello!"))    
 print(remove_exclamation_marks(""))              
 print(remove_exclamation_marks("Oh, no!!!"))     
@@ -156,7 +147,6 @@ def remove_word_with_one_em(s):
             result.append(word)
     return " ".join(result)
 
-# Примеры использования
 print(remove_word_with_one_em("Hi!"))            
 print(remove_word_with_one_em("Hi! Hi!"))        
 print(remove_word_with_one_em("Hi! Hi! Hi!"))   
